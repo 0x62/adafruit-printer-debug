@@ -79,6 +79,8 @@ I spent a while tweaking these options to try get the best result, but see below
 
 First, I increased the paper timeout in the driver to 10 seconds, and printed the source image below twice. The first print was successful (Job 34 in `error_log.1`), the second failed half way (Job 35) with `Printer door open or no paper left`. 
 
+The error message first appears in the log file at L4516 (https://github.com/0x62/adafruit-printer-debug/blob/main/error_log.1#L4516)
+
 On the left, is the result printing with the default Adafruit driver. In the middle, is the result of the first successful print, and on the right is the failed print.
 
 ![Printer results](img/output-1.jpg)
